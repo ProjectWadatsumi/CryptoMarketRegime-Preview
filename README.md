@@ -1,18 +1,39 @@
 # CryptoMarketRegime-Preview
 
-Public, read-only Phase 2/3 visual preview for Project Wadatsumi.
+Public, read-only UI v1.0 preview for Project Wadatsumi.
 
-Published scope is intentionally limited to the browser UI required to inspect:
+Published browser scope:
 - BTC-USD completed-candle charting
 - causal Swing / HH-HL-LH-LL structure
 - invalidation / transition markers
 - W / D / 4H structure overlays and explanation evidence
 - canonical 64-State classification
+- research-candidate Crypto / USDC target
+- local-only portfolio snapshot import and actual-vs-candidate gap
+- local-only operation log and JSON export
+- version attribution for later improvement review
 
-Safety boundary:
+Privacy and safety boundary:
 - no wallet connection
-- no signing, approval, permit, swap, transfer, LP action, or transaction submission
+- no private key or seed phrase
+- no signing, approval, permit, swap, transfer, bridge, LP action, or transaction submission
 - no production portfolio write
-- market data uses Coinbase Exchange public GET endpoints only
+- Coinbase market data uses public GET endpoints only
+- imported portfolio JSON is read locally by the browser and is not uploaded by this static preview
+- operation-log records are stored in browser local storage unless the user explicitly exports them
 
-The private research repository remains the source of truth. This public repository is only a display preview derived from verified Phase 3 head `39bdc13ef6081e080567bd2b53a4a04851a89db7`.
+Evidence boundary:
+- Phase 7 historical simulation is completed retrospective evidence
+- the allocation policy remains a research candidate
+- productionAdopted = false
+- executionAuthorized = false
+- N0 / N1 research is not included in this UI version
+
+This public display is derived from verified private UI v1.0 head:
+`004a123a8182b11fca6ff8ce561b6fa95461e8c0`
+
+Private-source verification:
+- Draft PR #33
+- Run #79 (`35681399799`) completed successfully
+- iPhone-width browser smoke PASS
+- Phase 2–11 read-only safety boundary PASS
