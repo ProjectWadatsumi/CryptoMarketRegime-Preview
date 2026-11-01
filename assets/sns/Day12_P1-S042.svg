@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#10202b"/>
+<text x="100" y="110" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="54" font-weight="700">64 rooms — evidence is thinner than the map</text>
+<text x="100" y="165" fill="#b7c7c9" font-family="Arial, sans-serif" font-size="28">Run #25 / exploratory screen • no BTC/USDC allocation percentages</text>
+<g transform="translate(100,245)">
+<text x="0" y="0" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="34" font-weight="700">Observed state combinations</text>
+<text x="0" y="52" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="30">55 / 64 observed</text>
+<rect x="0" y="90" width="1100" height="70" rx="12" fill="#263c46"/>
+<rect x="0" y="90" width="945.3" height="70" rx="12" fill="#49b7a4"/>
+<text x="1130" y="140" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="26">55 observed</text>
+<text x="1130" y="176" fill="#b7c7c9" font-family="Arial, sans-serif" font-size="22">9 not observed</text>
+<text x="0" y="225" fill="#b7c7c9" font-family="Arial, sans-serif" font-size="22">The taxonomy maps combinations; it does not choose weights.</text>
+</g>
+<g transform="translate(100,555)">
+<text x="0" y="0" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="34" font-weight="700">Temporal evidence screen</text>
+<text x="0" y="52" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="30">53 / 64 insufficient at every tested horizon</text>
+<rect x="0" y="90" width="1100" height="70" rx="12" fill="#263c46"/>
+<rect x="0" y="90" width="910.9" height="70" rx="12" fill="#e39b4a"/>
+<text x="1130" y="140" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="26">53 insufficient</text>
+<text x="1130" y="176" fill="#b7c7c9" font-family="Arial, sans-serif" font-size="22">11 with more temporal coverage</text>
+<text x="0" y="225" fill="#b7c7c9" font-family="Arial, sans-serif" font-size="22">Sparse cells stay descriptive — not confirmed rules.</text>
+</g>
+<line x1="100" y1="820" x2="1500" y2="820" stroke="#46606a" stroke-width="2"/>
+<text x="100" y="858" fill="#f5f1e8" font-family="Arial, sans-serif" font-size="22">P1-S042 • STATE64-SPARSE • source: CryptoMarketRegime Run #25 / Run #29</text>
+</svg>
